@@ -2,11 +2,7 @@ import { Server } from 'socket.io';
 
 const io = new Server(9000, {
     cors: {
-<<<<<<< HEAD
         origin: 'http://localhost:5173',
-=======
-        origin: 'http://localhost:3000',
->>>>>>> 0d78fa90298fa5243f8213e16ae34eb854210ca6
     }, 
 })
 

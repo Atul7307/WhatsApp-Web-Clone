@@ -70,6 +70,10 @@ io.on('connection',  (socket) => {
 })
 
 
+app.get('/', (req, res) => {
+    res.send('Server is running successfully');
+});
+
 
 app.listen(PORT, () => console.log(`Server is running successfully on PORT ${PORT}`));
 

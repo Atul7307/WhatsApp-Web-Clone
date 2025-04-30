@@ -24,7 +24,11 @@ const storage = new GridFsStorage({
     }
 });
 
+<<<<<<< HEAD
 export default multer({storage}); 
 
 
 // mongodb://atulkesharwani7974:atul7974@chatapp-shard-00-00.1lequ.mongodb.net:27017,chatapp-shard-00-01.1lequ.mongodb.net:27017,chatapp-shard-00-02.1lequ.mongodb.net:27017/WHATSAPPCLONE?ssl=true&replicaSet=atlas-78i8sb-shard-0&authSource=admin&retryWrites=true&w=majority
+=======
+export default multer({storage}); 
+>>>>>>> 0d78fa90298fa5243f8213e16ae34eb854210ca6

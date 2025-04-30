@@ -46,9 +46,15 @@ const Conversations = ({ text }) => {
                 users && users.map((user, index) => (
                     user.sub !== account.sub && 
                         <>
+<<<<<<< HEAD
                             <Conversation user={user}  key={index}/>
                             {
                                 users.length !== (index + 1)  && <StyledDivider key={index} />
+=======
+                            <Conversation user={user} />
+                            {
+                                users.length !== (index + 1)  && <StyledDivider />
+>>>>>>> 0d78fa90298fa5243f8213e16ae34eb854210ca6
                             }
                         </>
                 ))
